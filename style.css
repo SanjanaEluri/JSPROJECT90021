@@ -1,0 +1,87 @@
+body {
+    font-family: Arial, sans-serif;
+}
+h1 {
+    color: #DC143C;
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 1em;
+}
+h2{
+    color:turquoise;
+    text-align: center;
+    font-size: 1.5em;
+    margin-bottom: 1em;
+}
+h3{
+    color:magenta;
+    text-align: center;
+    font-size: 1.5em;
+    margin-bottom: 1em;
+}
+nav {
+    background-color: #8aa3bc;
+    padding: 2rem;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 6rem;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+}
+
+.image-container img {
+    display: inline-block;
+    vertical-align: top;
+    width :30%;
+    height:100%;
+    margin: 2rem;
+   }
+   
+   
+   .navbar {
+   
+    background-color: #e41313;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('images/js1');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+.nav-bar {
+    position: sticky;
+    top: 0;
+    background-color: rgba(87, 185, 138, 0.7);
+    padding: 1em;
+    box-shadow: 0 2px 4px rgba(32, 206, 245, 0.5);
+}
+ul{
+    color: blueviolet;
+}
+.a{
+    color: darkmagenta;
+}
+nav a:hover {
+    background-color:yellowgreen /* Change this to your desired hover background color */
+  }
+  
+
+       

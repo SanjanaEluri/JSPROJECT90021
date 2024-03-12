@@ -1,0 +1,42 @@
+<html>
+    <head>
+        <title> JAVASCRIPT </title>
+    <script>
+        //template literal 
+        const name="Smiley"
+         //back tick
+        document.writeln(`<b>My name is ${name}</b>`)//normal sting and variable is differentiated by $ and {}
+        document.writeln("</br>" )
+        //spread operator (3 dots)-merging two or more arrays
+        const a=[1,2,3]
+        const b=[...a,4,5]
+        document.writeln(a+"</br>")
+        document.writeln(b+"</br>")
+        const p=[10,20,30]
+        const q=[40,50,60]
+        const r=[...p,...q]
+        document.writeln(p+"</br>")
+        document.writeln(q+"</br>")
+        document.writeln(r+"</br>")
+        const v1="kluniversity"
+        const v2=[...v1]
+        document.writeln("v1="+v1+"</br>")
+        document.writeln("v1="+v2+"</br>")
+        //destructing assignment-extract the elements from array
+        const arr=["os","aws",10,30]
+        document.writeln(arr+"</br>")
+        document.writeln("arr length="+arr.length+"</br>")
+        const [m,s,w,d]=arr
+        document.writeln(m+"</br>"+s+"</br>"+w+"</br>"+d+"</br>")
+
+        const [i,j]=arr   
+        document.writeln(i+"</br>"+j+"</br>") //
+        const [x,,y]=arr //leave the index with , if you dont want to print
+        document.writeln(x+"</br>"+y+"</br>")//prints 0,2 index values
+    </script>
+    </head>
+<body>
+   
+</body>
+    
+</html>
